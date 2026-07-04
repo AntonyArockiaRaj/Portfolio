@@ -1,0 +1,23 @@
+{
+  "name": "Antony Arockia Raj | .NET Developer & AI Integration Specialist",
+  "short_name": "Antony.dev",
+  "description": "Portfolio of Antony Arockia Raj — .NET Developer specializing in C#, Angular, Dynamics 365, Power Apps, SPFx, and AI-powered application development.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0e1a",
+  "theme_color": "#0a0e1a",
+  "icons": [
+    {
+      "src": "images/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

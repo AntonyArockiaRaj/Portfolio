@@ -1,0 +1,58 @@
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media (max-width: 991px) {
+    .nav-links {
+        position: fixed;
+        top: 0; right: -100%;
+        width: min(320px, 80vw);
+        height: 100vh;
+        background: var(--bg-alt);
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        transition: right .35s ease;
+        box-shadow: var(--shadow);
+        z-index: 999;
+        border-left: 1px solid var(--border);
+    }
+    .nav-links.open { right: 0; }
+    .nav-toggle { display: flex; }
+    .nav-link { font-size: 1.02rem; padding: 12px 22px; }
+
+    .about-grid { grid-template-columns: 1fr; text-align: center; }
+    .about-content { text-align: left; }
+    .counters-grid { grid-template-columns: repeat(2, 1fr); }
+    .contact-grid { grid-template-columns: 1fr; }
+
+    .footer-top { grid-template-columns: 1fr 1fr; row-gap: 40px; }
+    .footer-brand-col { grid-column: 1 / -1; }
+}
+
+@media (max-width: 640px) {
+    .hero { padding-top: 130px; }
+    .counters-grid { grid-template-columns: repeat(2, 1fr); }
+    .about-feature { padding: 14px; }
+    .timeline { padding-left: 30px; }
+    .timeline-dot { left: -30px; }
+    .chat-panel { right: 12px; left: 12px; width: auto; bottom: 90px; }
+    .chat-toggle-btn { right: 20px; bottom: 20px; }
+    #scrollTopBtn { left: 20px; bottom: 20px; }
+    .projects-toolbar { flex-direction: column; align-items: stretch; }
+    .project-search { min-width: 0; }
+
+    .footer-top { grid-template-columns: 1fr; text-align: center; }
+    .footer-brand-col .footer-brand { justify-content: center; }
+    .footer-tagline { margin-left: auto; margin-right: auto; }
+    .footer-social { justify-content: center; }
+    .footer-contact a, .footer-contact .footer-contact-static { justify-content: center; }
+    .footer-heading::after { left: 50%; transform: translateX(-50%); }
+    .footer-bottom { justify-content: center; text-align: center; }
+}
+
+@media (max-width: 420px) {
+    .counters-grid { grid-template-columns: 1fr; }
+    .hero-buttons { flex-direction: column; align-items: stretch; }
+    .hero-buttons .btn { justify-content: center; }
+}

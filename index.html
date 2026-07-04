@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antony Arockia Raj | Senior .NET Full Stack Developer &amp; AI Integration Specialist</title>
+    <meta name="description" content="Antony Arockia Raj — .NET Developer specializing in C#, Angular, Dynamics 365 Plugin Development, Power Apps, SPFx, and AI-powered application development with OpenAI &amp; Azure OpenAI integration.">
+    <meta name="keywords" content="Antony Arockia Raj, .NET Developer, C# Developer, Angular Developer, Dynamics 365, Power Apps, SPFx, SharePoint Framework, AI Integration, OpenAI, Azure OpenAI, Full Stack Developer, Chennai, Tamil Nadu">
+    <meta name="author" content="Antony Arockia Raj">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://antony9345.github.io/Portfolio/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Antony Arockia Raj | Senior .NET Full Stack Developer & AI Integration Specialist">
+    <meta property="og:description" content="I develop scalable enterprise applications using .NET technologies, Microsoft Power Platform, SharePoint Framework, Dynamics 365 Plugins, and AI-powered solutions.">
+    <meta property="og:image" content="images/profile.jpg">
+    <meta property="og:url" content="https://antony9345.github.io/Portfolio/">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Antony Arockia Raj | Senior .NET Full Stack Developer & AI Integration Specialist">
+    <meta name="twitter:description" content="Enterprise .NET, Power Platform, Dynamics 365 &amp; AI-powered application development.">
+    <meta name="twitter:image" content="images/profile.jpg">
+
+    <meta name="theme-color" content="#0a0e1a">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="images/icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="images/icon.png">
+
+    <!-- Preconnects -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Antony Arockia Raj",
+      "jobTitle": ".NET Developer & AI Integration Specialist",
+      "url": "https://antony9345.github.io/Portfolio/",
+      "image": "images/profile.jpg",
+      "email": "mailto:antonyarockiaraj107@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kallakurichi",
+        "addressRegion": "Tamil Nadu",
+        "addressCountry": "IN"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/antony-arockia-raj/",
+        "https://github.com/Antony9345"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "EYERAISE"
+      }
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- Skip to content -->
+    <a href="#home" class="skip-link">Skip to content</a>
+
+    <!-- Preloader -->
+    <div id="preloader" aria-hidden="true">
+        <div class="loader-ring"></div>
+        <div class="loader-text">Antony<span>.dev</span></div>
+    </div>
+
+    <!-- Custom cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="mainNav">
+        <div class="nav-container">
+            <a class="navbar-brand" href="#home">
+                <img src="images/icon.png" alt="Antony logo" class="logo-img" width="36" height="36">
+                <span>Antony<em>.dev</em></span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#skills">Skills</a></li>
+                <li><a class="nav-link" href="#experience">Experience</a></li>
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-link" href="#certifications">Certifications</a></li>
+                <li><a class="nav-link" href="#education">Education</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="themeToggle" class="icon-btn" aria-label="Toggle light/dark theme" title="Toggle theme">
+                    <i class="bi bi-sun-fill theme-icon-light"></i>
+                    <i class="bi bi-moon-stars-fill theme-icon-dark"></i>
+                </button>
+                <a href="resume/Antony_Resume.pdf" download class="btn-nav-resume d-none d-md-inline-flex">
+                    <i class="bi bi-download"></i> Resume
+                </a>
+                <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <canvas id="particleCanvas" aria-hidden="true"></canvas>
+        <div class="blob blob-1" aria-hidden="true"></div>
+        <div class="blob blob-2" aria-hidden="true"></div>
+        <div class="blob blob-3" aria-hidden="true"></div>
+
+        <div class="hero-container">
+            <p class="hero-eyebrow" data-aos="fade-down">
+                <span class="pulse-dot"></span> Available for new opportunities
+            </p>
+
+            <h1 class="hero-name" data-aos="fade-up" data-aos-delay="100">
+                Hi, I'm <span class="gradient-text">Antony</span>
+            </h1>
+
+            <p class="hero-role" data-aos="fade-up" data-aos-delay="200">
+                .NET Developer building <span class="gradient-text">AI-Powered Applications</span>
+            </p>
+
+            <div class="hero-tech-pills" data-aos="fade-up" data-aos-delay="250">
+                <span>C#</span><span>Java</span><span>Angular</span><span>JavaScript</span>
+                <span>SQL / MySQL</span><span>Dynamics 365</span><span>Power Apps</span><span>SPFx</span>
+            </div>
+
+            <p class="hero-intro" data-aos="fade-up" data-aos-delay="300">
+                I develop scalable enterprise applications using .NET technologies, Microsoft Power Platform,
+                SharePoint Framework, Dynamics 365 Plugins, and modern frontend frameworks. I also build
+                AI-powered applications by integrating Large Language Models, intelligent assistants, and
+                automation into business solutions.
+            </p>
+
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
+                <a href="resume/Antony_Resume.pdf" download class="btn btn-primary-glow">
+                    <i class="bi bi-download"></i> Download Resume
+                </a>
+                <a href="#projects" class="btn btn-glass">
+                    <i class="bi bi-folder2-open"></i> View Projects
+                </a>
+                <a href="#contact" class="btn btn-outline-glass">
+                    <i class="bi bi-chat-dots"></i> Contact Me
+                </a>
+            </div>
+
+            <div class="hero-social" data-aos="fade-up" data-aos-delay="500">
+                <a href="https://github.com/Antony9345" target="_blank" rel="noopener" class="social-icon" title="GitHub" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/antony-arockia-raj/" target="_blank" rel="noopener" class="social-icon" title="LinkedIn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:antonyarockiaraj107@gmail.com" class="social-icon" title="Email" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+                <a href="https://wa.me/919345658857" target="_blank" rel="noopener" class="social-icon" title="WhatsApp" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            </div>
+        </div>
+
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+            <span></span>
+        </a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+            <p class="section-eyebrow" data-aos="fade-up">Get to know me</p>
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+
+            <div class="about-grid">
+                <div class="about-image-wrap" data-aos="fade-right">
+                    <div class="about-glow"></div>
+                    <img src="images/profile.jpg" alt="Antony Arockia Raj" class="about-img" loading="lazy" width="380" height="380">
+                    <div class="about-badge">
+                        <i class="bi bi-patch-check-fill"></i> 2+ Yrs Experience
+                    </div>
+                </div>
+
+                <div class="about-content" data-aos="fade-left">
+                    <h3>Antony Arockia Raj R</h3>
+                    <p class="about-role">.NET Developer &amp; AI Integration Specialist</p>
+
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon"><i class="bi bi-building-gear"></i></div>
+                            <div>
+                                <h4>Enterprise Software</h4>
+                                <p>2+ years building enterprise software on the Microsoft stack.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon"><i class="bi bi-stars"></i></div>
+                            <div>
+                                <h4>AI-Powered Development</h4>
+                                <p>Passion for building AI-powered applications and intelligent automation.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon"><i class="bi bi-diagram-3"></i></div>
+                            <div>
+                                <h4>Business Applications</h4>
+                                <p>Experience developing enterprise business applications end-to-end.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon"><i class="bi bi-diagram-2"></i></div>
+                            <div>
+                                <h4>Clean Architecture</h4>
+                                <p>Focus on clean architecture and scalable backend development.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon"><i class="bi bi-book"></i></div>
+                            <div>
+                                <h4>Continuous Learner</h4>
+                                <p>Always exploring Generative AI, LLMs, and intelligent automation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="resume/Antony_Resume.pdf" download class="btn btn-primary-glow mt-3">
+                        <i class="bi bi-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <div class="counters-grid" id="countersGrid">
+                <div class="counter-card" data-aos="zoom-in" data-aos-delay="0">
+                    <i class="bi bi-calendar2-check"></i>
+                    <span class="counter-num" data-target="2" data-suffix="+">0</span>
+                    <span class="counter-label">Years Experience</span>
+                </div>
+                <div class="counter-card" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="bi bi-kanban"></i>
+                    <span class="counter-num" data-target="6" data-suffix="+">0</span>
+                    <span class="counter-label">Projects Completed</span>
+                </div>
+                <div class="counter-card" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="bi bi-cpu"></i>
+                    <span class="counter-num" data-target="25" data-suffix="+">0</span>
+                    <span class="counter-label">Technologies</span>
+                </div>
+                <div class="counter-card" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="bi bi-building"></i>
+                    <span class="counter-num" data-target="4" data-suffix="+">0</span>
+                    <span class="counter-label">Enterprise Applications</span>
+                </div>
+                <div class="counter-card" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="bi bi-robot"></i>
+                    <span class="counter-num" data-target="2" data-suffix="+">0</span>
+                    <span class="counter-label">AI Projects</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <p class="section-eyebrow" data-aos="fade-up">What I work with</p>
+            <h2 class="section-title" data-aos="fade-up">Skills &amp; Technologies</h2>
+
+            <div class="skills-tabs" data-aos="fade-up">
+                <button class="skill-tab active" data-cat="all">All</button>
+                <button class="skill-tab" data-cat="backend">Backend</button>
+                <button class="skill-tab" data-cat="frontend">Frontend</button>
+                <button class="skill-tab" data-cat="database">Database</button>
+                <button class="skill-tab" data-cat="microsoft">Microsoft</button>
+                <button class="skill-tab" data-cat="ai">AI</button>
+                <button class="skill-tab" data-cat="tools">Tools</button>
+            </div>
+
+            <div class="skills-grid" id="skillsGrid">
+                <!-- Backend -->
+                <div class="skill-card" data-cat="backend" data-aos="fade-up"><i class="bi bi-code-slash"></i><span>C#</span></div>
+                <div class="skill-card" data-cat="backend" data-aos="fade-up" data-aos-delay="50"><i class="bi bi-globe2"></i><span>ASP.NET</span></div>
+                <div class="skill-card" data-cat="backend" data-aos="fade-up" data-aos-delay="100"><i class="bi bi-gear-wide-connected"></i><span>ASP.NET Core</span></div>
+                <div class="skill-card" data-cat="backend" data-aos="fade-up" data-aos-delay="150"><i class="bi bi-braces-asterisk"></i><span>.NET Core</span></div>
+                <div class="skill-card" data-cat="backend" data-aos="fade-up" data-aos-delay="200"><i class="bi bi-hdd-network"></i><span>ASP.NET Web API</span></div>
+                <div class="skill-card" data-cat="backend" data-aos="fade-up" data-aos-delay="250"><i class="bi bi-database-gear"></i><span>Entity Framework</span></div>
+
+                <!-- Frontend -->
+                <div class="skill-card" data-cat="frontend" data-aos="fade-up"><i class="bi bi-triangle"></i><span>Angular</span></div>
+                <div class="skill-card" data-cat="frontend" data-aos="fade-up" data-aos-delay="50"><i class="bi bi-filetype-js"></i><span>JavaScript</span></div>
+                <div class="skill-card" data-cat="frontend" data-aos="fade-up" data-aos-delay="100"><i class="bi bi-filetype-html"></i><span>HTML5</span></div>
+                <div class="skill-card" data-cat="frontend" data-aos="fade-up" data-aos-delay="150"><i class="bi bi-filetype-css"></i><span>CSS3</span></div>
+                <div class="skill-card" data-cat="frontend" data-aos="fade-up" data-aos-delay="200"><i class="bi bi-bootstrap"></i><span>Bootstrap</span></div>
+                <div class="skill-card" data-cat="frontend" data-aos="fade-up" data-aos-delay="250"><i class="bi bi-phone"></i><span>Responsive Design</span></div>
+
+                <!-- Database -->
+                <div class="skill-card" data-cat="database" data-aos="fade-up"><i class="bi bi-server"></i><span>SQL Server</span></div>
+                <div class="skill-card" data-cat="database" data-aos="fade-up" data-aos-delay="50"><i class="bi bi-database"></i><span>MySQL</span></div>
+
+                <!-- Microsoft -->
+                <div class="skill-card" data-cat="microsoft" data-aos="fade-up"><i class="bi bi-diagram-3"></i><span>Dynamics 365 Plugin Development</span></div>
+                <div class="skill-card" data-cat="microsoft" data-aos="fade-up" data-aos-delay="50"><i class="bi bi-grid-3x3-gap"></i><span>Power Apps</span></div>
+                <div class="skill-card" data-cat="microsoft" data-aos="fade-up" data-aos-delay="100"><i class="bi bi-window-stack"></i><span>SharePoint Framework (SPFx)</span></div>
+                <div class="skill-card" data-cat="microsoft" data-aos="fade-up" data-aos-delay="150"><i class="bi bi-microsoft"></i><span>SharePoint</span></div>
+                <div class="skill-card" data-cat="microsoft" data-aos="fade-up" data-aos-delay="200"><i class="bi bi-grid-1x2"></i><span>Microsoft 365</span></div>
+
+                <!-- AI -->
+                <div class="skill-card" data-cat="ai" data-aos="fade-up"><i class="bi bi-stars"></i><span>OpenAI API</span></div>
+                <div class="skill-card" data-cat="ai" data-aos="fade-up" data-aos-delay="50"><i class="bi bi-cloud-fill"></i><span>Azure OpenAI</span></div>
+                <div class="skill-card" data-cat="ai" data-aos="fade-up" data-aos-delay="100"><i class="bi bi-chat-square-text"></i><span>Prompt Engineering</span></div>
+                <div class="skill-card" data-cat="ai" data-aos="fade-up" data-aos-delay="150"><i class="bi bi-robot"></i><span>AI Chatbots</span></div>
+                <div class="skill-card" data-cat="ai" data-aos="fade-up" data-aos-delay="200"><i class="bi bi-search"></i><span>RAG</span></div>
+                <div class="skill-card" data-cat="ai" data-aos="fade-up" data-aos-delay="250"><i class="bi bi-magic"></i><span>AI Automation</span></div>
+                <div class="skill-card" data-cat="ai" data-aos="fade-up" data-aos-delay="300"><i class="bi bi-diagram-2"></i><span>Semantic Search</span></div>
+                <div class="skill-card" data-cat="ai" data-aos="fade-up" data-aos-delay="350"><i class="bi bi-plug"></i><span>MCP</span></div>
+                <div class="skill-card" data-cat="ai" data-aos="fade-up" data-aos-delay="400"><i class="bi bi-cpu-fill"></i><span>AI Agents</span></div>
+
+                <!-- Tools -->
+                <div class="skill-card" data-cat="tools" data-aos="fade-up"><i class="bi bi-git"></i><span>Git</span></div>
+                <div class="skill-card" data-cat="tools" data-aos="fade-up" data-aos-delay="50"><i class="bi bi-github"></i><span>GitHub</span></div>
+                <div class="skill-card" data-cat="tools" data-aos="fade-up" data-aos-delay="100"><i class="bi bi-code-square"></i><span>Visual Studio</span></div>
+                <div class="skill-card" data-cat="tools" data-aos="fade-up" data-aos-delay="150"><i class="bi bi-terminal-plus"></i><span>VS Code</span></div>
+                <div class="skill-card" data-cat="tools" data-aos="fade-up" data-aos-delay="200"><i class="bi bi-send-check"></i><span>Postman</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+        <div class="container">
+            <p class="section-eyebrow" data-aos="fade-up">My journey</p>
+            <h2 class="section-title" data-aos="fade-up">Experience</h2>
+
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">September 2024 &ndash; Present</span>
+                        <h3>Software Developer</h3>
+                        <p class="timeline-company"><i class="bi bi-building"></i> EYERAISE &middot; Full-time</p>
+                        <ul>
+                            <li>Developed enterprise applications using C# and .NET Core.</li>
+                            <li>Built and maintained ASP.NET Web APIs and REST APIs.</li>
+                            <li>Developed Angular applications and implemented JavaScript customizations.</li>
+                            <li>Created Microsoft Dynamics 365 plugins and customizations.</li>
+                            <li>Built business applications using Microsoft Power Apps.</li>
+                            <li>Developed SharePoint and SPFx solutions.</li>
+                            <li>Worked with SQL Server and MySQL databases.</li>
+                            <li>Improved application performance, scalability, and security.</li>
+                            <li>Resolved production issues and collaborated with cross-functional teams to deliver business solutions.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>C#</span><span>.NET Core</span><span>ASP.NET Web API</span><span>Angular</span><span>JavaScript</span><span>Dynamics 365</span><span>Power Apps</span><span>SharePoint</span><span>SPFx</span><span>SQL Server</span><span>MySQL</span><span>REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">January 2024 &ndash; May 2024</span>
+                        <h3>Associate Developer</h3>
+                        <p class="timeline-company"><i class="bi bi-building"></i> Jyotsna and Kevin Technologies &middot; Full-time &middot; Kallakurichi, Tamil Nadu, India (On-site)</p>
+                        <ul>
+                            <li>Developed and maintained WordPress websites.</li>
+                            <li>Customized themes and implemented responsive layouts using HTML5 and CSS.</li>
+                            <li>Created and formatted ePub files for digital publishing.</li>
+                            <li>Designed and edited marketing and publishing assets using Adobe InDesign and Adobe Photoshop.</li>
+                            <li>Collaborated with the team to deliver client projects within deadlines.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>HTML5</span><span>CSS</span><span>WordPress</span><span>ePub</span><span>Adobe InDesign</span><span>Adobe Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <p class="section-eyebrow" data-aos="fade-up">Selected work</p>
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+
+            <div class="projects-toolbar" data-aos="fade-up">
+                <div class="project-filters" id="projectFilters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ai">AI</button>
+                    <button class="filter-btn" data-filter="enterprise">Enterprise</button>
+                    <button class="filter-btn" data-filter="microsoft">Microsoft</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                </div>
+                <div class="project-search">
+                    <i class="bi bi-search"></i>
+                    <input type="search" id="projectSearch" placeholder="Search projects...">
+                </div>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <div class="project-card" data-cats="ai" data-aos="fade-up">
+                    <div class="project-card-glow"></div>
+                    <div class="project-icon"><i class="bi bi-file-earmark-person"></i></div>
+                    <h3>AI Resume Analyzer</h3>
+                    <p>Upload a resume and get instant AI-driven feedback, an ATS compatibility score, and tailored improvement suggestions.</p>
+                    <ul class="project-features">
+                        <li>Upload Resume</li>
+                        <li>AI Analysis</li>
+                        <li>ATS Score</li>
+                        <li>Suggestions</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Antony9345" target="_blank" rel="noopener" class="btn-project"><i class="bi bi-github"></i> GitHub</a>
+                        <span class="btn-project disabled" title="Live demo coming soon"><i class="bi bi-box-arrow-up-right"></i> Live Demo</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-cats="microsoft enterprise" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card-glow"></div>
+                    <div class="project-icon"><i class="bi bi-diagram-3"></i></div>
+                    <h3>Enterprise CRM Plugin</h3>
+                    <p>Custom Dynamics 365 plugins integrated with Power Apps to automate CRM workflows for enterprise clients.</p>
+                    <ul class="project-features">
+                        <li>Dynamics 365 Plugins</li>
+                        <li>Power Apps Integration</li>
+                        <li>Workflow Automation</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Antony9345" target="_blank" rel="noopener" class="btn-project"><i class="bi bi-github"></i> GitHub</a>
+                        <span class="btn-project disabled" title="Live demo coming soon"><i class="bi bi-box-arrow-up-right"></i> Live Demo</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-cats="ai" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card-glow"></div>
+                    <div class="project-icon"><i class="bi bi-robot"></i></div>
+                    <h3>AI Chatbot</h3>
+                    <p>Context-aware chatbot powered by OpenAI, using semantic search and prompt engineering to deliver accurate answers.</p>
+                    <ul class="project-features">
+                        <li>OpenAI Integration</li>
+                        <li>Context-aware Responses</li>
+                        <li>Semantic Search</li>
+                        <li>Prompt Engineering</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Antony9345" target="_blank" rel="noopener" class="btn-project"><i class="bi bi-github"></i> GitHub</a>
+                        <span class="btn-project disabled" title="Live demo coming soon"><i class="bi bi-box-arrow-up-right"></i> Live Demo</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-cats="enterprise web" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card-glow"></div>
+                    <div class="project-icon"><i class="bi bi-people"></i></div>
+                    <h3>Employee Management System</h3>
+                    <p>Full-stack system to manage employee records, attendance, and role-based access with detailed reporting.</p>
+                    <ul class="project-features">
+                        <li>ASP.NET Core</li>
+                        <li>Angular</li>
+                        <li>SQL Server</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Antony9345" target="_blank" rel="noopener" class="btn-project"><i class="bi bi-github"></i> GitHub</a>
+                        <span class="btn-project disabled" title="Live demo coming soon"><i class="bi bi-box-arrow-up-right"></i> Live Demo</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-cats="microsoft" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-card-glow"></div>
+                    <div class="project-icon"><i class="bi bi-window-stack"></i></div>
+                    <h3>SharePoint Employee Portal</h3>
+                    <p>Modern intranet portal built with SPFx, integrated with Microsoft 365 and Power Apps for employee self-service.</p>
+                    <ul class="project-features">
+                        <li>SPFx</li>
+                        <li>Microsoft 365</li>
+                        <li>Power Apps</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Antony9345" target="_blank" rel="noopener" class="btn-project"><i class="bi bi-github"></i> GitHub</a>
+                        <span class="btn-project disabled" title="Live demo coming soon"><i class="bi bi-box-arrow-up-right"></i> Live Demo</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-cats="enterprise web" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-card-glow"></div>
+                    <div class="project-icon"><i class="bi bi-check2-square"></i></div>
+                    <h3>Task Management System</h3>
+                    <p>Secure task and project tracking application with JWT authentication and role-based workflows.</p>
+                    <ul class="project-features">
+                        <li>ASP.NET Core</li>
+                        <li>Angular</li>
+                        <li>JWT Authentication</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Antony9345" target="_blank" rel="noopener" class="btn-project"><i class="bi bi-github"></i> GitHub</a>
+                        <span class="btn-project disabled" title="Live demo coming soon"><i class="bi bi-box-arrow-up-right"></i> Live Demo</span>
+                    </div>
+                </div>
+            </div>
+
+            <p class="no-results" id="noProjectResults" hidden>No projects match your search.</p>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <p class="section-eyebrow" data-aos="fade-up">Verified skills</p>
+            <h2 class="section-title" data-aos="fade-up">Certifications</h2>
+
+            <div class="cert-grid">
+                <div class="cert-card" data-aos="fade-up" tabindex="0" role="button"
+                     data-cert-title="Advanced Training in Web Designing &amp; Web Application Development"
+                     data-cert-no="AIM WD 12706"
+                     data-cert-org="Accord Info Matrix (Training Division)"
+                     data-cert-date="30/12/2023"
+                     data-cert-areas="HTML, JavaScript, Angular, CSS, DOM"
+                     data-cert-image="images/certificates/web-design-dev-certificate.jpg">
+                    <div class="cert-badge"><i class="bi bi-patch-check-fill"></i></div>
+                    <h3>Web Designing &amp; Web Application Development</h3>
+                    <p class="cert-org">Accord Info Matrix (Training Division)</p>
+                    <p class="cert-date"><i class="bi bi-calendar3"></i> 30 Dec 2023</p>
+                    <div class="cert-tags"><span>HTML</span><span>JavaScript</span><span>Angular</span><span>CSS</span><span>DOM</span></div>
+                    <button class="btn-project cert-preview-btn">
+                        <i class="bi bi-eye"></i> Preview
+                    </button>
+                </div>
+
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="100" tabindex="0" role="button"
+                     data-cert-title="Advanced Training in Java Technology"
+                     data-cert-no="AIM JT 12705"
+                     data-cert-org="Accord Info Matrix (Training Division)"
+                     data-cert-date="30/12/2023"
+                     data-cert-areas="Core Java, J2EE"
+                     data-cert-image="images/certificates/java-technology-certificate.jpg">
+                    <div class="cert-badge"><i class="bi bi-patch-check-fill"></i></div>
+                    <h3>Java Technology</h3>
+                    <p class="cert-org">Accord Info Matrix (Training Division)</p>
+                    <p class="cert-date"><i class="bi bi-calendar3"></i> 30 Dec 2023</p>
+                    <div class="cert-tags"><span>Core Java</span><span>J2EE</span></div>
+                    <button class="btn-project cert-preview-btn">
+                        <i class="bi bi-eye"></i> Preview
+                    </button>
+                </div>
+
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="200" tabindex="0" role="button"
+                     data-cert-title="Advanced Training in DotNet Technology"
+                     data-cert-no="AIM DT 12704"
+                     data-cert-org="Accord Info Matrix (Training Division)"
+                     data-cert-date="30/12/2023"
+                     data-cert-areas="C#.NET, ADO.NET, ASP.NET, MVC"
+                     data-cert-image="images/certificates/dotnet-technology-certificate.jpg">
+                    <div class="cert-badge"><i class="bi bi-patch-check-fill"></i></div>
+                    <h3>DotNet Technology</h3>
+                    <p class="cert-org">Accord Info Matrix (Training Division)</p>
+                    <p class="cert-date"><i class="bi bi-calendar3"></i> 30 Dec 2023</p>
+                    <div class="cert-tags"><span>C#.NET</span><span>ADO.NET</span><span>ASP.NET</span><span>MVC</span></div>
+                    <button class="btn-project cert-preview-btn">
+                        <i class="bi bi-eye"></i> Preview
+                    </button>
+                </div>
+
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="300" tabindex="0" role="button"
+                     data-cert-title="Microsoft Applied Skills: Create and Manage Automated Processes by Using Power Automate"
+                     data-cert-no="7EBF0956725CCBB2"
+                     data-cert-no-label="Credential ID"
+                     data-cert-org="Microsoft"
+                     data-cert-date="January 2026"
+                     data-cert-areas="Power Automate, Cloud Flows, Process Automation"
+                     data-cert-image="images/certificates/power-automate-certificate.jpg">
+                    <div class="cert-badge"><i class="bi bi-patch-check-fill"></i></div>
+                    <h3>Create and Manage Automated Processes by Using Power Automate</h3>
+                    <p class="cert-org">Microsoft Applied Skills</p>
+                    <p class="cert-date"><i class="bi bi-calendar3"></i> January 2026</p>
+                    <div class="cert-tags"><span>Power Automate</span><span>Cloud Flows</span><span>Process Automation</span></div>
+                    <button class="btn-project cert-preview-btn">
+                        <i class="bi bi-eye"></i> Preview
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Preview Modal -->
+    <div class="cert-modal" id="certModal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="cert-modal-backdrop" id="certModalBackdrop"></div>
+        <div class="cert-modal-content">
+            <button class="cert-modal-close" id="certModalClose" aria-label="Close">
+                <i class="bi bi-x-lg"></i>
+            </button>
+            <a class="cert-modal-image-wrap" id="certModalImageWrap" href="#" target="_blank" rel="noopener" hidden>
+                <img class="cert-modal-image" id="certModalImage" src="" alt="">
+            </a>
+            <div class="cert-modal-badge"><i class="bi bi-patch-check-fill"></i></div>
+            <h3 id="certModalTitle"></h3>
+            <p class="cert-modal-org" id="certModalOrg"></p>
+            <dl class="cert-modal-details">
+                <dt id="certModalNoLabel">Certificate No.</dt><dd id="certModalNo"></dd>
+                <dt>Issued Date</dt><dd id="certModalDate"></dd>
+                <dt>Specialized Areas</dt><dd id="certModalAreas"></dd>
+            </dl>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <section id="education" class="section section-alt">
+        <div class="container">
+            <p class="section-eyebrow" data-aos="fade-up">Academic background</p>
+            <h2 class="section-title" data-aos="fade-up">Education</h2>
+
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">July 2025 &ndash; Present</span>
+                        <h3>Master of Computer Applications (MCA)</h3>
+                        <p class="timeline-company"><i class="bi bi-mortarboard"></i> University of Madras</p>
+                        <p class="timeline-desc">Computer Programming, Specific Applications</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">July 2020 &ndash; June 2023</span>
+                        <h3>Bachelor of Commerce &ndash; BCom (CA)</h3>
+                        <p class="timeline-company"><i class="bi bi-mortarboard"></i> Thiruvalluvar University, Vellore</p>
+                        <p class="timeline-desc">Computer Applications</p>
+                        <div class="timeline-tags"><span>Activities: Small Savings Club Secretary</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <p class="section-eyebrow" data-aos="fade-up">Let's talk</p>
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <p>Have a project in mind, an opportunity to discuss, or just want to say hi? My inbox is always open.</p>
+
+                    <a href="mailto:antonyarockiaraj107@gmail.com" class="contact-item">
+                        <i class="bi bi-envelope-fill"></i>
+                        <div><span>Email</span><strong>antonyarockiaraj107@gmail.com</strong></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/antony-arockia-raj/" target="_blank" rel="noopener" class="contact-item">
+                        <i class="bi bi-linkedin"></i>
+                        <div><span>LinkedIn</span><strong>antony-arockia-raj</strong></div>
+                    </a>
+                    <a href="https://github.com/Antony9345" target="_blank" rel="noopener" class="contact-item">
+                        <i class="bi bi-github"></i>
+                        <div><span>GitHub</span><strong>Antony9345</strong></div>
+                    </a>
+                    <a href="https://wa.me/919345658857" target="_blank" rel="noopener" class="contact-item">
+                        <i class="bi bi-whatsapp"></i>
+                        <div><span>WhatsApp</span><strong>+91 93456 58857</strong></div>
+                    </a>
+                    <div class="contact-item contact-item-static">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <div><span>Location</span><strong>Kallakurichi, Tamil Nadu, India</strong></div>
+                    </div>
+                    <a href="resume/Antony_Resume.pdf" download class="btn btn-outline-glass mt-3">
+                        <i class="bi bi-download"></i> Download Resume
+                    </a>
+                </div>
+
+                <form class="contact-form" id="contactForm" data-aos="fade-left">
+                    <div class="form-group">
+                        <input type="text" name="name" id="cf-name" class="form-control" placeholder=" " required>
+                        <label for="cf-name">Your Name</label>
+                        <span class="form-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="cf-email" class="form-control" placeholder=" " required>
+                        <label for="cf-email">Your Email</label>
+                        <span class="form-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="cf-message" rows="5" class="form-control" placeholder=" " required></textarea>
+                        <label for="cf-message">Your Message</label>
+                        <span class="form-error"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary-glow w-100">
+                        <i class="bi bi-send"></i> Send Message
+                    </button>
+                    <p class="form-note" id="formNote" role="status"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand-col">
+                    <span class="footer-brand">Antony<em>.dev</em></span>
+                    <p class="footer-tagline">.NET Developer &amp; AI Integration Specialist building scalable enterprise
+                        applications and AI-powered solutions across the Microsoft technology stack.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/Antony9345" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/antony-arockia-raj/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="mailto:antonyarockiaraj107@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+                        <a href="https://wa.me/919345658857" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact-col">
+                    <h4 class="footer-heading">Get In Touch</h4>
+                    <div class="footer-contact">
+                        <a href="mailto:antonyarockiaraj107@gmail.com"><i class="bi bi-envelope-fill"></i> antonyarockiaraj107@gmail.com</a>
+                        <a href="https://wa.me/919345658857" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> +91 93456 58857</a>
+                        <span class="footer-contact-static"><i class="bi bi-geo-alt-fill"></i> Kallakurichi, Tamil Nadu, India</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copy">&copy; <span id="footerYear"></span> Antony Arockia Raj. All Rights Reserved.</p>
+                <p class="footer-credit">Built with <strong>HTML, CSS &amp; JavaScript</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button id="scrollTopBtn" title="Back to top" aria-label="Back to top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- AI Chatbot Widget -->
+    <button id="chatToggleBtn" class="chat-toggle-btn" aria-label="Open AI assistant" aria-expanded="false">
+        <i class="bi bi-chat-dots-fill chat-icon-open"></i>
+        <i class="bi bi-x-lg chat-icon-close"></i>
+        <span class="chat-ping"></span>
+    </button>
+
+    <div class="chat-panel" id="chatPanel" role="dialog" aria-modal="false" aria-hidden="true" aria-label="Portfolio AI Assistant">
+        <div class="chat-header">
+            <div class="chat-header-info">
+                <div class="chat-avatar"><i class="bi bi-robot"></i></div>
+                <div>
+                    <h4>Portfolio Assistant</h4>
+                    <span class="chat-status"><span class="status-dot"></span> Online</span>
+                </div>
+            </div>
+            <button id="chatCloseBtn" aria-label="Close chat"><i class="bi bi-x-lg"></i></button>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="chat-msg bot">
+                <div class="chat-msg-avatar"><i class="bi bi-robot"></i></div>
+                <div class="chat-msg-bubble">
+                    Hi! I'm Antony's portfolio assistant. Ask me about his <strong>skills</strong>,
+                    <strong>experience</strong>, <strong>projects</strong>, <strong>certifications</strong>,
+                    or how to <strong>get in touch</strong>.
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-suggestions" id="chatSuggestions">
+            <button class="chip">What are your skills?</button>
+            <button class="chip">Tell me about your experience</button>
+            <button class="chip">Show me your projects</button>
+            <button class="chip">How can I contact you?</button>
+        </div>
+
+        <form class="chat-input-row" id="chatForm">
+            <input type="text" id="chatInput" placeholder="Ask me anything about Antony..." autocomplete="off" aria-label="Type your question">
+            <button type="submit" aria-label="Send message"><i class="bi bi-send-fill"></i></button>
+        </form>
+        <p class="chat-disclaimer">Answers are generated from Antony's portfolio content only.</p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/theme.js" defer></script>
+    <script src="js/navigation.js" defer></script>
+    <script src="js/cursor.js" defer></script>
+    <script src="js/particles.js" defer></script>
+    <script src="js/counters.js" defer></script>
+    <script src="js/skills.js" defer></script>
+    <script src="js/projects.js" defer></script>
+    <script src="js/certifications.js" defer></script>
+    <script src="js/contact-form.js" defer></script>
+    <script src="js/chatbot.js" defer></script>
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://antony9345.github.io/Portfolio/sitemap.xml
